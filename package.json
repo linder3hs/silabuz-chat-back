@@ -1,0 +1,26 @@
+{
+  "name": "chat-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node -r esm src/app.js",
+    "dev": "nodemon -r esm src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "4.3.1",
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "esm": "3.2.25",
+    "express": "4.18.2",
+    "pusher": "5.1.2",
+    "twilio": "3.84.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.20",
+    "prisma": "4.9.0"
+  }
+}
